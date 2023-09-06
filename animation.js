@@ -1,5 +1,4 @@
 const headImg = document.getElementById('pg-1-img');
-
 const imgUrl = [
     `https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80`,
     `https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80`,
@@ -8,7 +7,6 @@ const imgUrl = [
     `https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2xvdGhlcyUyMHNob3B8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=400&q=60`,
     `https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80`
 ]   
-
 
 function changeImg(imgArr, img) {
     img.style.opacity=0;    
@@ -20,5 +18,5 @@ function changeImg(imgArr, img) {
 }
 
 setInterval(()=>{
-    changeImg(imgUrl, headImg)
+    changeImg(imgUrl, headImg);
 }, 2000);
