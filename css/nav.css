@@ -12,7 +12,8 @@ body {
 }
 
 .navbar-collapse {
-  justify-content: center;
+  justify-content: right;
+  margin: 0 2rem;
 }
 
 #cta {
