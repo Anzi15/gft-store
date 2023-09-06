@@ -1,0 +1,19 @@
+@media screen and (max-width: 500px) {
+  #cta {
+    margin: 0;
+  }
+  .sec1 {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sec1 .txt, .sec1 .img {
+    width: 90vw;
+  }
+  .sec1 .txt .heading, .sec1 .img .heading {
+    font-size: 2rem;
+    margin: 0 0 3rem 0;
+  }
+  .sec1 .txt img, .sec1 .img img {
+    width: 90vw;
+  }
+}/*# sourceMappingURL=responsive.css.map */
