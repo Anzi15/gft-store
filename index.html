@@ -1,64 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!--icon -->
-    <link rel="icon" href="">
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" >
-    <title>GFT STORE | OPTIMISTIC</title>
-    <!-- my stylings -->
-    <script defer src="script.js"></script>
-    <!-- seprate files to keep it orgranized -->
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/body.css">
-</head>
-<body>
-     <!-- bootstrap nav -->
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark " style="background-color: #1b1b1b !important; position: fixed !important; top: 0 !important; right: 0 !important; left: 0 !important; z-index: 999 !important;">
-    <div id="nav" class="container-fluid">
-      <a class="navbar-brand" href="index.html">.GFT</a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0 user-scalable=no" />
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a href="" class="nav-link">Store</a>
-            <a href="" class="nav-link">Products</a>
-            <a href="" class="nav-link">Offers</a>
-            <a href="" class="nav-link">Social</a>
+        <!-- Bootstrap CDN Connection -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous" />
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+
+        <!-- Local JS -->
+        <script defer src="/src/js/script.js"></script>
+
+        <!-- Local CSS -->
+        <link rel="stylesheet" href="/src/css/base.css" />
+        <link rel="stylesheet" href="/src/css/index.css" />
+
+        <title>OPTIMISTIC | GFT STORE</title>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav
+            class="navbar navbar-expand-lg bg-dark navbar-dark w-auto"
+            style="
+                background-color: #1b1b1b !important;
+                position: fixed !important;
+                top: 0 !important;
+                right: 0 !important;
+                left: 0 !important;
+                z-index: 999 !important;
+            ">
+            <div id="nav" class="container-fluid">
+                <a class="navbar-brand" href="/index.html">.GFT</a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a href="" class="nav-link">Store</a>
+                        <a href="" class="nav-link">Products</a>
+                        <a href="" class="nav-link">Offers</a>
+                        <a href="" class="nav-link">Social</a>
+                    </div>
+                </div>
+
+                <div class="ctaBtn">
+                    <button id="cta" class="btn-hover">Log in</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="section sec1">
+            <div class="txt">
+                <p class="upper">Your typa brand :)</p>
+                <h1 class="heading">
+                    The Perfect Shopping Experience, That "YOU" deserve.
+                </h1>
+            </div>
+            <div class="img">
+                <img
+                    src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+                    alt="" />
+                <!-- <img src="https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2xvdGhlcyUyMHNob3B8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=400&q=60" alt=""> -->
+                <!-- <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2xvdGhlcyUyMHNob3B8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=400&q=60" alt=""> -->
+                <!-- <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt=""> -->
+            </div>
         </div>
-      </div>
-
-      <div class="ctaBtn">
-        <button id="cta" class="btn-hover">
-          Log in
-        </button>
-      </div>
-
-    </div>
-  </nav>
-      
-  <div class="section sec1">
-    <div class="txt">
-      <p class="upper">
-        Your typa brand :)
-      </p>
-      <h1 class="heading">
-        The Perfect Shopping Experience,
-        That "YOU" deserve.
-      </h1>
-    </div>
-    <div class="img">
-      <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="">
-      <!-- <img src="https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2xvdGhlcyUyMHNob3B8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=400&q=60" alt=""> -->
-      <!-- <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2xvdGhlcyUyMHNob3B8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=400&q=60" alt=""> -->
-      <!-- <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt=""> -->
-    </div>
-  </div>
-
-</body>
+    </body>
 </html>

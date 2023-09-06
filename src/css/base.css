@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  font-family: "Space Grotesk", sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 0px;
+  border: none;
+  border-radius: 0px;
+  outline: none;
+  margin: 0px;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+::selection {
+  color: #000;
+  background-color: #fab750;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #262626;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fbc169;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fab750;
+}
+
+/*# sourceMappingURL=base.css.map */
