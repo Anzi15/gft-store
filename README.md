@@ -10,7 +10,7 @@ Welcome to the "gft store" repository, where we bring you a sleek and modern fro
 
 👋 **Meet the Team**
 
-I'm Lemme.Code, the creator of this project, and I'm thrilled to have you here! Whether you stumbled upon this repository by chance or you're here to collaborate, your presence is much appreciated.
+I'm Lemme.Code, the creator of this project & i really appreciate zain-khoso for collaborating with me in this project he own this project as much as i do, and I'm thrilled to have you here! Whether you stumbled upon this repository by chance or you're here to collaborate, your presence is much appreciated.
 
 🛒 **About "gft store"**
 
@@ -34,4 +34,4 @@ Happy coding! 🚀
 
 ---
 
-Feel free to personalize this description further to match your project's unique features and goals. Good luck with your "gft store" repository!
+

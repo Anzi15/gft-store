@@ -12,18 +12,22 @@ body {
 }
 
 .sec1 {
-  padding: 1.2rem;
+  padding: 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .sec1 .txt {
   color: white;
-  width: 40rem;
+  width: 35rem;
   font-family: "Space Grotesk", sans-serif;
 }
+.sec1 #pg-1-img {
+  transition: opacity 0.5s ease-in-out;
+}
 .sec1 .img img {
-  width: 30rem;
+  border-radius: 8px;
+  width: 33rem;
   aspect-ratio: 16/9;
 }
 
