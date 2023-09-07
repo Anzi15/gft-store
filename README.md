@@ -1,6 +1,5 @@
-# gft-store
+# .GFT store
 
-Certainly! Here's a welcoming and conversational description for your GitHub repository named "gft store," a frontend e-commerce store project:
 
 ---
 
