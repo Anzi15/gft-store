@@ -31,6 +31,9 @@ body {
   aspect-ratio: 16/9;
 }
 
+.sec2 {
+  height: 120vh;
+}
 .sec2 input[type=radio] {
   display: none;
 }
